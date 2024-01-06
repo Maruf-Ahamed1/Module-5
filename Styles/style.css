@@ -1,0 +1,88 @@
+/* all common css starts */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Work Sans;
+}
+
+.container-all {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* all common css ends */
+
+/* Banner starts */
+
+.photo {
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    left: 845px;
+    top: 216px;
+    right: 230px;
+    color: #FFF;
+    padding: 0px 0px 0px 50px;
+    text-align: right;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    /* background-color: red; */
+}
+
+.text {
+    position: absolute;
+    top: 470px;
+    bottom: 262px;
+    left: 876px;
+    right: 230px;
+    text-align: right;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px
+        /* background-color: aqua; */
+}
+/* 
+.input {
+    position: absolute;
+    top: 578px;
+    left: 1210px;
+    right: 230px;
+    bottom: 166px;
+    border-radius: 5px;
+    background: #FFF;
+    text-align: center;
+    line-height: 70px;
+    border: none;
+
+
+  
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+} */
+.input{
+    position: absolute;
+    top: 578px;
+    left: 1200px;
+    right: 230px;
+    bottom: 166px; 
+    border-radius: 5px;
+    background: #FFF;
+    line-height: 70px;
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 22px;
+    border: none;
+    color: rgb(82, 82, 210);
+}
